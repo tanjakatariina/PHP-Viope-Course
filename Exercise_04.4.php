@@ -19,12 +19,12 @@ Luvun pitää olla vähintään nolla! */
 		echo "Luvun pitää olla vähintään nolla!";
 	} else {
 		while ($luku >= 0) {
-		    if ($luku == 0) {
-                echo "$luku";
-            } else {
-                echo "$luku ";
-            }
-            $luku--;
+			if ($luku == 0) {
+                		echo "$luku";
+            		} else {
+                		echo "$luku ";
+            		}
+           		$luku--;
 		}
 	}
 ?>
