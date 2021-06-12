@@ -11,5 +11,5 @@ Luvun -3 itseisarvo on 3 */
 <?php
 	$luku = $_GET["luku"];
 
-    echo "Luvun " . $luku . " itseisarvo on " . abs($luku);
+    	echo "Luvun " . $luku . " itseisarvo on " . abs($luku);
 ?>
