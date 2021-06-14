@@ -28,7 +28,7 @@ Pisteiden keskiarvo: 25.857142857143 */
 
 	$pisteet = implode(" " , $lukutaulukko);
 
-	$summa = 0;
+	$summa = 0
 
 	foreach ($lukutaulukko as $arvo) {
 		$summa = $summa + $arvo;
