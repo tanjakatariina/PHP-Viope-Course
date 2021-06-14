@@ -23,9 +23,8 @@ Pisteiden summa: 181
 Pisteiden keskiarvo: 25.857142857143 */
 
 <?php
-
-    $lukujono = $_GET['lukujono'];
-    $lukutaulukko = explode(',',$lukujono);
+    	$lukujono = $_GET['lukujono'];
+    	$lukutaulukko = explode(',',$lukujono);
 
 	$pisteet = implode(" " , $lukutaulukko);
 
@@ -40,5 +39,4 @@ Pisteiden keskiarvo: 25.857142857143 */
 	echo "Pisteet olivat: $pisteet\n";
 	echo "Pisteiden summa: $summa\n";
 	echo "Pisteiden keskiarvo: $keskiarvo" ;
-
 ?>
