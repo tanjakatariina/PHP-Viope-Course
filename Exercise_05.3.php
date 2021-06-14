@@ -25,10 +25,10 @@ Pienimmästä suurimpaan: 2,5,7,8,8,8,8,9,9,32,32,34,43,47,54,54,65,67,76,76,332
 
 <?php
 
-    $lukujono = $_GET['lukujono'];
-    $taulukko = explode(',',$lukujono);
+   	$lukujono = $_GET['lukujono'];
+    	$taulukko = explode(',',$lukujono);
 
-    echo "Järjestys aluksi: $lukujono\n";
+    	echo "Järjestys aluksi: $lukujono\n";
 
 
 	for ($i = 0; $i < count($taulukko); $i++) {
@@ -43,10 +43,10 @@ Pienimmästä suurimpaan: 2,5,7,8,8,8,8,9,9,32,32,34,43,47,54,54,65,67,76,76,332
 
 	$taulukko_toisinpain = array_reverse($taulukko);
 
-    $suurin_pienin = implode("," , $taulukko);
-    $pienin_suurin = implode("," , $taulukko_toisinpain);
+   	$suurin_pienin = implode("," , $taulukko);
+   	$pienin_suurin = implode("," , $taulukko_toisinpain);
 
-    echo "Suurimmasta pienimpään: $suurin_pienin\n";
-    echo "Pienimmästä suurimpaan: $pienin_suurin\n";
-
+   	echo "Suurimmasta pienimpään: $suurin_pienin\n";
+   	echo "Pienimmästä suurimpaan: $pienin_suurin\n";
+	
 ?>
