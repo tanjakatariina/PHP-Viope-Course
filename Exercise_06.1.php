@@ -22,13 +22,13 @@ Taulukon sisältö: 9,7,5 */
 
 	### put your code here ###
 	$teksti = "Lainausmerkkien(\" ja \") sisällä voi käyttää kenoviivalla(\\) merkittyjä erikoiskoodeja.\n";
-    $a = array(9, 7, 5);
-    $elain = "kissa";
-    $lkm = 3;
+    	$a = array(9, 7, 5);
+    	$elain = "kissa";
+    	$lkm = 3;
 
-    $tulostus = implode(",",$a);
-    echo $teksti;
-    echo "Ostin $lkm {$elain}a.\n";
-    echo "taulukon sisätlö: $tulostus";
+   	$tulostus = implode(",",$a);
+    	echo $teksti;
+    	echo "Ostin $lkm {$elain}a.\n";
+   	echo "taulukon sisätlö: $tulostus";
 
 ?>
