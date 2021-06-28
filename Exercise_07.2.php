@@ -31,36 +31,36 @@ Example output:
 	switch ($mode) {
 		case "1":
 			$temp = strtolower($merkkijono);
-            $pituus = strlen($temp);
-            $tulostus = "";
-            for ($i = 0; $i < $pituus; $i++) {
-                if ($i == ($pituus - 1)){
-                    $tulostus = $tulostus.$temp[$i];
-                }else {
-                    $tulostus = $tulostus.$temp[$i]." ";
-                }
-            }
-            break;
+			$pituus = strlen($temp);
+            		$tulostus = "";
+            		for ($i = 0; $i < $pituus; $i++) {
+                		if ($i == ($pituus - 1)) {
+                    			$tulostus = $tulostus.$temp[$i];
+                		} else {
+                   			$tulostus = $tulostus.$temp[$i]." ";
+                		}
+            		}
+            		break;
 		case "2":
-            $temp = strtoupper($merkkijono);
-            $pituus = strlen($temp);
-            $tulostus = "";
-            for ($i = 0; $i < $pituus; $i++) {
-                if($i == ($pituus - 1)){
-                    $tulostus = $tulostus.$temp[$i];
-                }else {
-                    $tulostus = $tulostus.$temp[$i]." ";
-                }
-            }
-            break;
+            		$temp = strtoupper($merkkijono);
+            		$pituus = strlen($temp);
+            		$tulostus = "";
+            		for ($i = 0; $i < $pituus; $i++) {
+                		if ($i == ($pituus - 1)) {
+                    		$tulostus = $tulostus.$temp[$i];
+                		} else {
+                    			$tulostus = $tulostus.$temp[$i]." ";
+                		}
+            		}
+            		break;
 		case "3":
-            $tulostus = strtolower($merkkijono);
-            $tulostus = strrev($tulostus);
-            break;
-        case "4":
-            $tulostus = strtoupper($merkkijono);
-            $tulostus = strrev($tulostus);
-            break;
+            		$tulostus = strtolower($merkkijono);
+            		$tulostus = strrev($tulostus);
+            		break;
+        	case "4":
+            		$tulostus = strtoupper($merkkijono);
+            		$tulostus = strrev($tulostus);
+            		break;
 	}
 	echo $tulostus;
 ?>
