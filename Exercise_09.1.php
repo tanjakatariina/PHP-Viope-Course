@@ -33,7 +33,7 @@ Esko Esimerkki: Terve vaan! */
 
     if ($mode == "save") {
         $lahettaja = trim($_GET['lahettaja']);
-		$lahettaja = strip_tags($lahettaja);
+	$lahettaja = strip_tags($lahettaja);
 
         $viesti = trim($_GET['viesti']);
         $viesti = strip_tags($viesti);
