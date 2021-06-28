@@ -31,19 +31,19 @@ Uudet arvosanat:
 	while ($rivi = fgets($arvosanat_viite, 1024)) {
 		if ($rivi == 5) {
 			fwrite($tulokset_viite, (int)$rivi);
-            fwrite($tulokset_viite, "\n");
+            		fwrite($tulokset_viite, "\n");
 		} else {
 			fwrite($tulokset_viite, (int)($rivi + 1));
-            fwrite($tulokset_viite, "\n");
+            		fwrite($tulokset_viite, "\n");
 		}
 	}
 
 	fclose($arvosanat_viite);
-    fclose($tulokset_viite);
+    	fclose($tulokset_viite);
 
-    $tulokset_viite = fopen($tulokset, 'r');
-    echo "Uudet arvosanat:\n";
-    while ($rivi = fgets($tulokset_viite, 1024)) {
-        echo "$rivi";
-    }
+    	$tulokset_viite = fopen($tulokset, 'r');
+    	echo "Uudet arvosanat:\n";
+    	while ($rivi = fgets($tulokset_viite, 1024)) {
+        	echo "$rivi";
+    	}
 ?>
