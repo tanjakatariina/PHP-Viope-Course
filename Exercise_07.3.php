@@ -22,12 +22,12 @@ Merkkijono lopuksi: Uusi merkkijono */
 <?php
 
 	function uusiarvo(&$viiteparametri) {
-        echo "Merkkijono aluksi: $viiteparametri";
-        $viiteparametri = "Uusi merkkijono";
-    }
+		echo "Merkkijono aluksi: $viiteparametri";
+		$viiteparametri = "Uusi merkkijono";
+    	}
 
-    $merkkijono = "aluksi\n";
-    uusiarvo($merkkijono);
-    echo "Merkkijono lopuksi: $merkkijono\n";
+    	$merkkijono = "aluksi\n";
+    	uusiarvo($merkkijono);
+    	echo "Merkkijono lopuksi: $merkkijono\n";
 
 ?>
